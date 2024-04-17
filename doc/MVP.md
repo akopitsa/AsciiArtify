@@ -9,6 +9,7 @@ wget -O /tmp/k8s.png https://uxwing.com/wp-content/themes/uxwing/download/brands
 ```
 ## Convert image
 ```sh
-curl -F 'image=@/tmp/k8s.png' localhost:8088/img/
+curl -F 'image=@/tmp/azure.png' localhost:8088/img/
 ```
 # Demo
+![Image](./app.gif)
