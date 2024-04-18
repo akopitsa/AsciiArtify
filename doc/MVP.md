@@ -5,11 +5,11 @@ kubectl port-forward -n demo svc/ambassador 8088:80&
 ```
 ## Download image(example)
 ```sh
-wget -O /tmp/k8s.png https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/kubernetes-icon.png
+wget -O ~/Desktop/azure.png https://static-00.iconduck.com/assets.00/microsoft-azure-icon-512x396-6fn0yfat.png
 ```
 ## Convert image
 ```sh
-curl -F 'image=@/tmp/azure.png' localhost:8088/img/
+curl -F 'image=@/~/Desktop/azure.png' localhost:8088/img/
 ```
 # Demo
 ![Image](./app.gif)
